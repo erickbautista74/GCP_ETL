@@ -1,0 +1,37 @@
+📂 Your_Project_Folder/
+│── 📂 1_data/               # Data storage (optional, mostly use GCS)
+│   ├── 1.1_raw/             # Raw input data
+│   ├── 1.2_processed/       # Processed & cleaned data
+│── 📂 2_src/                # Source code (Python, PySpark, SQL)
+│   ├── 2.1_ingestion/       # Extract data (APIs, files, databases)
+│   ├── 2.2_processing/      # Transform & clean data (Python, PySpark)
+│   ├── 2.3_loading/         # Load data into BigQuery/GCS
+│   ├── 2.4_queries/         # SQL queries used inside scripts
+│── 📂 3_notebooks/          # Jupyter notebooks (EDA, prototyping)
+│   ├── 3.1_eda/             # Exploratory Data Analysis
+│   ├── 3.2_etl_prototype/   # Prototyping ETL steps
+│── 📂 4_dags/               # Apache Airflow DAGs (if needed)
+│── 📂 5_configs/            # Config files (.env, YAML, JSON)
+│── 📂 6_tests/              # Unit & integration tests
+│── 📂 7_logs/               # Logs for debugging
+│── 📂 8_docs/               # Documentation & architecture diagrams
+│── 📜 README.md             # Project overview & setup instructions
+│── 📜 requirements.txt      # Python dependencies
+│── 📜 Dockerfile            # Containerization (if needed)
+│── 📜 .gitignore            # Ignore unnecessary files
+
+
+
+
+
+
+
+mkdir -p \
+1_data/1.1_raw 1_data/1.2_processed \
+2_src/2.1_ingestion 2_src/2.2_processing 2_src/2.3_loading 2_src/2.4_queries \
+3_notebooks/3.1_eda 3_notebooks/3.2_etl_prototype \
+4_dags \
+5_configs \
+6_tests \
+7_logs \
+8_docs

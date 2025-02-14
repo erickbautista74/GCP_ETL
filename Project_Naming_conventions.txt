@@ -1,0 +1,12 @@
+General Naming for Data Projects
+Prefix	    	Meaning	                        	Example
+DS_	        Data Science	                	DS_CustomerChurn_Prediction
+DE_	        Data Engineering	            	DE_ETL_Pipeline_AWS
+ML_	        Machine Learning	            	ML_Image_Classification
+DL_	        Deep Learning	                	DL_GAN_ImageGeneration
+AI_	        Artificial Intelligence	        	AI_Chatbot_OpenAI
+NLP_	    	Natural Language Processing	    	NLP_Text_Classification
+SQL_	    	SQL Projects	                	SQL_DataWarehouse_Project
+ETL_	    	ETL Pipelines	                	ETL_Airflow_BatchPipeline
+BigData_	Big Data Projects	            	BigData_Spark_Kafka
+GCP_, AWS_, Azure_	Cloud-Specific Projects		GCP_BigQuery_Pipeline
